@@ -1,0 +1,260 @@
+---
+title: "Leveraging AI through Active Listening"
+subtitle: "Proposal Presentation"
+author: "Judy Chen"
+institute: "IBM 6400, Cal Poly Pomona"
+date: "May 2025"
+format: 
+  revealjs:
+    theme: serif
+    width: 1600
+    height: 900
+    footer: Leveraging AI through Active Listening
+    transition: slide
+    transition-speed: default
+    incremental: false
+    toc: true
+    toc-depth: 1
+    slide-number: true
+    scrollable: true
+    smaller: true
+    code-fold: false
+    code-overflow: wrap
+    number-sections: false
+    number-depth: 5
+    embed-resources: true
+    css: styles.css
+editor: visual
+execute: 
+  echo: true
+  freeze: auto
+---
+
+# Introduction {background-color="#efb4d1"}
+
+::: {.incremental style="font-size: 1.5em; text-align: center"}
+This study addresses the gap between a salesperson’s listening tactics and objective salesperson performance by addressing listening indicators (textual or audio cues) that are neglected in current research
+:::
+
+## Problem Statement
+
+::: {.fragment .fade-up style="color: #e74c3c;"}
+-   Current research emphasizes **perceptual measures** of listening
+    -   Surveys, customer feedback (Rodriguez et al., 2023)\
+    -   Neglects **objective indicators** like transcript or audio data\
+    -   Offers limited understanding of which salesperson signals listening in interaction with buyers
+:::
+
+## Significance of Topic
+
+::: {.fragment .fade-up}
+-   Our research addresses these gaps & examines how objective measurements play a role in sales success
+-   As Generative Artificial Intelligence (GenAI) and machine learning tools continue to evolve, they are poised to revolutionize sales training by providing businesses with cost-effective solutions for upskilling the future salesforce through various Large Language Models (LLMs).
+    -   We examine how GenAI and (LLMs) can be implemented in sales training
+:::
+
+# Literature Review {background-color="#efb4d1"}
+
+## Research Questions
+
+1.  Which LLMs provide the most **cost-effective** solutions?\
+2.  What impact does Gen AI have on driving measurable **sales outcomes**?
+3.  How does GenAI provide efficient **real-time feedback** during sales training?
+
+## Background Info
+
+-   Signaling Theory: Focuses on the reduction of information asymmetry between transaction parties (Spence, 1973 & 2002)
+
+-   Salesperson listening: "the cognitive process of actively sensing, interpreting, evaluating, and responding to the verbal and nonverbal messages of present or potential customers" (Castleberry & Shepherd 1993)
+
+    -   Been recognized as a crucial factor in building trust, understanding customer needs, and increasing sales effectiveness (Castleberry & Shepherd, 1993; Itani et al., 2019)
+
+-   Salesperson listening has become increasingly important in relationship marketing because of its proven success in building long-lasting relationships with customers (Itani et al. 2019)
+
+-   Failure to listen to what customers say and express through verbal and nonverbal communication results in a lack of common understanding, leading customers to experience various negative feelings (Pullins et al. 2017)
+
+## Sales Tactics Definition
+
+-   Using signaling theory and sales literature, we conceptualize on two behavioral listening tactics
+
+-   **Distilling:** a salesperson’s linguistic behavior that concisely communicates the essence of the buyer’s message from any prior speaking turn in the conversation.
+
+    -   Repeating, summarizing, rephrasing
+
+-   **Inquiring:** the salesperson’s linguistic behaviors during their speaking turn that solicit information or gain additional insight from buyers based on what they have already said
+
+    -   Follow-up or clarifying questions
+
+## Research Model & Framework
+
+-   To enhance this process, we propose a novel LLM-based framework for analyzing complex sales interactions, using multiple LLMs in a hierarchical structure while maintaining human oversight. This three-tiered structure includes (Lin, 2024):
+
+    -   Workhorse models (e.g., Claude Haiku 3.5, DeepSeek, OpenAI 4o-mini) for initial classification at an undergraduate level.
+
+    -   Flagship models (e.g., Claude Sonnet 3.5) at the master’s level, used for resolving edge cases and refining definitions.
+
+    -   PhD-level models (e.g., OpenAI 01) for final resolution of disagreements.
+
+-   **Steps:**
+
+    1.  The process begins with human experts defining the focal tactics based on sales context
+    2.  Once the definitions are set, we use workhorse models to tag potential sales tactics in the sales cold calling transcripts (0= not distilling or inquiring, 1=distilling or inquiring)
+    3.  Using tools like the Claude API Prompt Improver, we align the definitions of sales tactics with the sales detection prompt.
+
+# Methods {background-color="#efb4d1"}
+
+## Data & Sampling
+
+-   Audio Calls Dataset (Provided to us)
+
+    -   Over 20k audio recordings of prospecting calls from September 2022, capturing interactions between inside salespeople and B2B (business-to-business) buyers
+
+        -   200 technological firms and buyers 
+
+            -   Financial, Marketing, HR, & Education
+
+        -   Text transcripts & voice features (tone / pitch) 
+
+-   Customer Relationship Management (CRM) Data Match
+
+    -   Provides contextual details regarding specific customer variables
+
+    -   Call outcome- highlighting success of scheduling intended virtual meetings
+
+## Data Collection
+
+-   Data set is provided in Excel and Google Spreadsheet
+
+    -   [Inquiring Sheet](https://docs.google.com/spreadsheets/d/18LXAzd_3pjamyCRAV--4K6-un90E_xijLw1l2a5bYMY/edit?usp=sharing) (Fall Semester)
+
+    -   [Distilling Sheet](https://docs.google.com/spreadsheets/d/11gJRYSWE0RQuufV8_iN41lczguEsJNyhhX2xt6CQKpM/edit?usp=sharing) (Spring Semester)
+
+    -   Key Variables: Caller ID, Turn, Speaker (Salesperson or Customer), Transcript(Context & Statement to Detect), Inquiring or Distilling Human expert definition, disagreement (Human vs. LLM), rationale between different LLM’s
+
+## Analytics Objectives #1
+
+> Assess the direct relationship between these objective listening tactics and actual sales.
+
+-   **Independent Variables**
+
+    -   Inquiring (0= Not Inquiring, 1= Inquiring)
+
+    -   Distilling (0= Not Distilling, 1= Distilling)
+
+    -   Identify presence as using dummy variables, then further refine (through number of words or level of listening in the inquiring / distilling statements)
+
+    -   Contextual variables (industry type, extracting from the sales cold calling transcripts)
+
+    **Dependent Variables**
+
+    -   Sales conversion (0= Not successful in scheduling a meeting, 1=successful in scheduling a meeting)
+
+    -   Lead Generation
+
+-   Employ the three tiered LLM Framework 
+
+    -   Utilizing various LLM’s for different classification tasks
+
+        -   Ex. Anthropic Console for prompt engineering
+
+        -   DeepSeek/ Claude for tagging inquiring or distilling statements 
+
+        -   Balancing classification tasks and performance with costs
+
+## Analytics Objectives #2
+
+> Delve into the dyadic process of salesperson listening to understand interaction dynamics.
+
+-   Examining how the flow of conversation influences sales outcomes 
+
+    -   Salesperson listening behavior 
+
+        -   Speech pattern, verbal or non-verbal cues
+
+        -   Engagement and overall communication effectiveness
+
+-   Python (Analyzing errors) / Google Colab
+
+    -   [Colab Sheet](https://colab.research.google.com/drive/1KfB16idqrduarj65up8vtE1SO4-_d6oC?usp=sharing)
+
+    -   Performance metrics: 
+
+    -   Precision, Recall, F1 score 
+
+        -   Accuracy, Specificity
+
+## Analytics Objectives #3
+
+>  Develop a GPT powered chatbot to train salespeople in active listening skills by incorporating structured data and conversations to assess their impact on user engagement and skill acquisition.
+
+-   Develop a GPT powered chatbot to train salespeople in active listening skills by incorporating structured data and conversations to assess their impact on user engagement and skill acquisition.
+
+    -   Developed a GPT-powered chatbot for sales training that simulates real-world conversations and assesses user engagement and skill development.
+
+    <!-- -->
+
+    -   The chatbot uses structured training data to create personalized, context-specific scenarios, evaluating trainees' ability to inquire, distill key information, and maintain engagement.
+
+    <!-- -->
+
+    -   Effectiveness is measured through both quantitative and qualitative data, analyzing learning progression, response accuracy, feedback, and behavioral adaptation.
+
+    Notion Link: George & Eric PA10 for Programming, GPT Instructions etc.:
+
+    <https://comfortable-factory-c37.notion.site/PA10-1a625b9d050280748a7bf7c46839b4b3>
+
+## Analytics Objectives #4
+
+> Implement and evaluate AI driven sales training comparing different chatbot variations to measure adaptive learning, timing, and engagement in improving active listening behavior and sales competency.
+
+-   Implement and evaluate AI driven sales training comparing different chatbot variations to measure adaptive learning, timing, and engagement in improving active listening behavior and sales competency.
+
+    -   The study compares different chatbot variations, including response delay and value-affirmation tactics, to assess their impact on user engagement, conversational quality, and sales competency development.
+
+    -   A/B testing is used to track engagement metrics such as conversation duration, dialogue exchanges, and user satisfaction, helping identify features that improve active listening and sales interactions.
+
+# References
+
+-   Arora, Neeraj, Ishita Chakraborty, and Yohei Nishimura. "AI–Human Hybrids for Marketing Research: Leveraging Large Language Models (LLMs) as Collaborators." Journal of Marketing 89, no. 2 (2025): 43–70.
+
+-   Aggarwal, Pankaj, Stephen B. Castleberry, Rick Ridnour, and C. David Shepherd. "Salesperson Empathy and Listening: Impact on Relationship Outcomes." Journal of Marketing Theory and Practice 13, no. 3 (2005): 16–31. https://doi.org/10.1080/10696679.2005.11658547. Brown, Tom B., Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, et al. "Language Models Are Few-Shot Learners." arXiv (2020). https://arxiv.org/abs/2005.14165.
+
+-   Castleberry, Stephen B., and C. David Shepherd. "Effective Interpersonal Listening and Personal Selling." The Journal of Personal Selling & Sales Management 13, no. 1 (1993): 35–49. https://doi.org/10.1080/08853134.1993.10753935.
+
+-   Casillo C, Ferrara E, De Meo P, Fiumara G, Provetti A. Chatbot training in Industry 4.0: Virtual assistants for employee skill development. Expert Syst Appl. 2020;157:113486. doi:10.1016/j.eswa.2020.113486
+
+-   Comer, Lucette B., and Tanya Drollinger. "Active Empathetic Listening and Selling Success: A Conceptual Framework." The Journal of Personal Selling & Sales Management 19, no. 1 (1999): 15–29.
+
+-   Drollinger, Tanya, and Lucette B. Comer. "Salesperson’s Listening Ability as an Antecedent to Relationship Selling." Journal of Business & Industrial Marketing 28, no. 1 (2013): 50–59. https://doi-org.proxy.library.cpp.edu/10.1108/08858621311285714.
+
+-   Drover, William, Matthew S. Wood, and Andrew C. Corbett. "Toward a Cognitive View of Signaling Theory: Individual Attention and Signal Set Interpretation." Journal of Management Studies 55, no. 2 (2018): 209–231. https://doi.org/10.1111/joms.12282.
+
+-   Gnewuch, Ulrich, Stefan Morana, Marc T. P. Adam, and Alexander Maedche. "Opposing Effects of Response Time in Human–Chatbot Interaction." Business & Information Systems Engineering 64, no. 6 (2022): 773–91. https://doi.org/10.1007/s12599-022-00755-x.
+
+-   Hildebrand, Christian, and Anouk Bergner. "AI-Driven Sales Automation: Using Chatbots to Boost Sales." NIM Marketing Intelligence Review 11, no. 2 (2019): 36–41. Itani, Omar S., Emily A. Goad, and Fernando Jaramillo. "Building Customer Relationships While Achieving Sales Performance Results: Is Listening the Holy Grail of Sales?" Journal of Business Research 102 (2019): 120–130. https://doi.org/10.1016/j.jbusres.2019.04.048.
+
+-   Kakolu, Sridevi, and Muhammad Ashraf Faheem. "Building Trust with Generative AI Chatbots: Exploring Explainability, Privacy, and User Acceptance." Iconic Research and Engineering Journals 8, no. 3 (2024): 823–834.
+
+-   Lin, Yufan. "LLM-Based Framework for Sales Negotiation Text Analysis: A Multi-Model Approach to Dyadic Context-Aware Classification." Notion. Accessed March 3, 2025. https://aicertificate.notion.site/LLM-Based-Framework-for-Sales-Negotiation-Text-Analysis-A-Multi-Model-Approach-to-Dyadic-Context-Aw-1510c52fba5b8009afaccc180939c64e#1590c52fba5b80839066d3e90f699448.
+
+-   Marshall, Greg W., Daniel J. Goebel, and William C. Moncrief. "Hiring for Success at the Buyer–Seller Interface." Journal of Business Research 56, no. 4 (2003): 247–255. https://doi.org/10.1016/S0148-2963(02)00435-6.
+
+-   Osburg, Victoria-Sophie, Vignesh Yoganathan, Fraser McLeay, and Mbaye Fall Diallo. "(In)compatibility in Sustainable Luxury Signals." Ecological Economics 196 (2022): 107430. https://doi.org/10.1016/j.ecolecon.2022.107430.
+
+-   Pullins, Ellen B., Henna Timonen, Tuomas Kaski, and Mikko Holopainen. "An Investigation of the Theory–Practice Gap in Professional Sales." Journal of Marketing Theory and Practice 25, no. 1 (2017): 17–38. https://doi.org/10.1080/10696679.2016.1236665.
+
+-   Ramsey, Rosemary P., and Ravipreet S. Sohi. "Listening to Your Customers: The Impact of Perceived Salesperson Listening Behavior on Relationship Outcomes." Journal of the Academy of Marketing Science 25, no. 2 (1997): 127–137.
+
+-   Reinhard J, Supriatna T, Erwin A, Kusumaningrum D. Self-trained AI chatbots for sales education: A case study in B2B training. Educ Technol Res Dev. 2024;72(1):112-134. doi:10.1007/s11423-023-10234-9 Rodriguez, Raul, Nils Marius Høgevold, Carlos Otero-Neira, and Göran Svensson. "The Direct Effect of B2B Sellers’ Skills on Relative and Absolute Sales Performance: A Dual Measurement Approach." Journal of Organizational Change Management 36, no. 1 (2023): 64–85. https://doi.org/10.1108/JOCM-03-2022-0083.
+
+-   Román, Sergio. "Salesperson’s Listening in Buyer-Seller Service Relationships." The Service Industries Journal 34, no. 7 (2014): 630–644. https://doi.org/10.1080/02642069.2014.886195.
+
+-   Spence, Michael. "Job Market Signaling." The Quarterly Journal of Economics 87, no. 3 (1973): 355–374. https://doi.org/10.2307/1882010. Spence, Michael. "Signaling in Retrospect and the Informational Structure of Markets." The American Economic Review 92, no. 3 (2002): 434–459. http://www.jstor.org/stable/3083350.
+
+-   Xiao Z, Feng L, Chen J, Li Y. Enhancing user engagement through active listening AI chatbots: An experimental study. J Artif Intell Res. 2020;69:325-348. doi:10.1613/jair.1.12051
+
+-   The secondary data research (library research)
+
+-   Daniel, Gwendal, Jordi Cabot, and the Institute of Electrical and Electronics Engineers. "The Software Challenges of Building Smart Chatbots." In 2021 IEEE/ACM 43rd International Conference on Software Engineering: Companion Proceedings (ICSE-Companion), Piscataway, NJ: IEEE, 2021. https://doi.org/10.1109/ICSE-Companion52605.2021.00138.
+
+-   Xiao, Ziang, Michelle X. Zhou, Wenxi Chen, Huahai Yang, and Changyan Chi. "If I Hear You Correctly: Building and Evaluating Interview Chatbots with Active Listening Skills." In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems, 1–14. 2020.

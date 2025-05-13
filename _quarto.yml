@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Judy Chen"
+  navbar:
+    left:
+      - text: "Home"
+        href: home.qmd
+      - text: "Résumé"
+        href: resume.qmd
+      - text: "Marketing Projects"
+        href: marketingprojects.qmd
+      - text: "Graduate Thesis"
+        href: presentation.qmd
+
+
+format:
+  html:
+    theme: [minty, theme.scss]
+    toc: true
+

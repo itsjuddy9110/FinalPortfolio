@@ -1,0 +1,127 @@
+---
+title: "Marketing Projects"
+---
+
+## 🎓 Project Portfolio
+
+A selection of academic and consulting projects demonstrating skills in digital strategy, forecasting, SEO, and market research.
+
+------------------------------------------------------------------------
+
+::: project-box
+### 🔍 SEO & SEM Strategy – *Target Corporation Audit*
+
+**Course:** IBM6100 – Digital Marketing Analytics
+
+**Description**: Conducted on-page and off-page SEO analysis for Target.com. Proposed enhancements in keyword targeting, backlink strategies, and SEM tactics to drive more organic and paid traffic.
+
+**Skills Demonstrated:**
+
+-   SEO Audit & Keyword Research
+
+-   Technical Optimization Recommendations
+
+-   Paid Media Integration & Funnel Design
+
+-   Content Strategy & Metrics
+
+[View Presentation Link](https://docs.google.com/presentation/d/14uEescfys9ei5zCL_2xUqZvuDEuvzohbpDH6kh89hQU/edit?usp=sharing)
+
+[View Report](https://docs.google.com/document/d/1AQAEFKicptxSLym2JQlM2C7XhFX0pu9GQDjPkYu4hUY/edit?usp=sharing)
+:::
+
+------------------------------------------------------------------------
+
+::: project-box
+### 🚗 Consumer Behavior Research – *Car Brand Preference Study*
+
+**Course:** IBM6500 – Marketing Research
+
+**Description:** Surveyed over 60 participants to explore the role of social validation, safety perception, and brand image on car purchases. Used regression, chi-square, and ANOVA testing for insights.
+
+**Skills Demonstrated:**
+
+-   Survey Design & Data Collection (Qualtrics)
+
+-   Hypothesis Testing (ANOVA, Regression)
+
+-   Psychographic Profiling
+
+-   Marketing Strategy Implications
+
+[View Presentation Link](https://docs.google.com/presentation/d/167nUG9S3I380OSNaPVP3cSfXXhqWPogLWq4NCpMoTLE/edit?usp=sharing)
+
+[View Report](https://docs.google.com/document/d/14Zj4OAraD9Red5WwS6__dupf6NaWMWDXyKh8iA_3oyw/edit?usp=sharing)
+:::
+
+------------------------------------------------------------------------
+
+::: project-box
+### 📈 Market Forecasting with R – *Ansett Airlines Demand Analysis*
+
+**Course:** IBM6520 – Market Forecasting
+
+**Description**: Predicted passenger volume by ticket class using Ansett Airlines time series data. Applied ADF testing, dynamic regression models, and seasonal differencing to improve forecast accuracy.
+
+**Skills Demonstrated:**
+
+-   Time Series Forecasting (R)
+
+-   ADF Stationarity Testing
+
+-   Seasonal Trend Analysis
+
+-   Strategic Demand Planning
+
+[View Presentation Link](https://docs.google.com/presentation/d/1iHamDu2XW1L_LPm13l9R_KbRtBaMJpNeKmKwVWVpHoo/edit?usp=sharing)
+
+[View Report](https://docs.google.com/document/d/1nSnjMqg7NCS_fiEEPrWS6zJKOHGez5PFwwAcxc4HUqo/edit?usp=sharing)
+:::
+
+------------------------------------------------------------------------
+
+::: project-box
+### 🛍️ Retail Strategy Consulting – *Cal Poly Pomona Farm Store*
+
+**Course:** IBM6300 – Retailing Management
+
+**Description**: Led a comprehensive brand audit and marketing refresh plan for CPP’s Farm Store. Developed a full retail strategy, customer segmentation, digital presence revamp, and merchandising plan.
+
+**Skills Demonstrated:**
+
+-   Customer Segmentation & Personas
+
+-   Brand Strategy & Visual Identity
+
+-   Social Media Calendar & CRM Audit
+
+-   Retail Pricing & Store Presentation
+
+[View Presentation Link](https://docs.google.com/presentation/d/1VmO_etIiNJ4Bc27fxvXhn1ImEn4opYT8/edit?usp=sharing&ouid=100827762829555749624&rtpof=true&sd=true)
+:::
+
+------------------------------------------------------------------------
+
+::: project-box
+### 🤖 Generative AI Readiness Study – *CPP Student Survey for Statistics Without Borders*
+
+**Course:** IBM6530 – Marketing Analytics
+
+**Description**: Collaborated on a research project with Statistics Without Borders to assess student readiness, concerns, and usage patterns around generative AI. Used survey design, chi-square testing, and correlation analysis to uncover how technical expertise affects AI attitudes and application.
+
+**Skills Demonstrated:**
+
+-   Survey Design & Stratified Sampling
+
+-   AI Policy Insight Development
+
+-   Cross-tabulation & Chi-Square Testing
+
+-   Data Visualization in R
+
+-   Ethical and Educational Implications of AI Use
+
+[View Presentation Link](https://docs.google.com/presentation/d/1qXHQO5IZPzKxmxw6sbHKpLLP_ZBtCCJ9ITJ10h0cE3g/edit?usp=sharing)
+:::
+
+------------------------------------------------------------------------

@@ -1,0 +1,90 @@
+---
+title: "Résumé"
+---
+
+```{r knit-resume, echo=FALSE, message=FALSE}
+rmarkdown::render(
+  "resume/Resume.Rmd",
+  output_format = "pdf_document",
+  output_file   = "Resume.pdf",
+  output_dir    = "resume",
+  quiet         = TRUE
+)
+```
+
+You can view a PDF version of my résumé [here](resume/Resume.pdf).
+
+# Professional Summary
+
+Results-driven sales and event professional with a strong foundation in client communication, lead generation, and cross-functional coordination. Skilled in supporting revenue growth through data-informed sales strategies, streamlined event logistics, and marketing insights. Experienced in managing internal processes, vendor relations, and customer engagement across fast-paced hospitality and event environments.
+
+# Technical Skills
+
+-   **Softwares**: Microsoft Office (Excel, PPT, Words, Teams, Outlook, 365), Squarespace, Caterease
+
+-   **Programming Languages:** R/R-Studio
+
+-   **Certifications:**
+
+    -   Data Wrangling and Visualization with Tidyverse in R Certification 
+
+    -   Servsafe Food Manager's Certificate (Exp. November 2025)
+
+# Education
+
+| Degree | Year | College / Department | Institution |
+|-------------------|-----------------|--------------------|-----------------|
+| Master of Science | Aug. 2023-Aug. 2025 | Singelyn Graduate School of Business | California State Polytechnic University, Pomona |
+| Bachelor of Science | Aug. 2018-Dec. 2022 | The Collins College of Hospitality Management | California State Polytechnic University, Pomona |
+
+# Work Experience
+
+### Event & Sales Coordinator, NOOR Events
+
+*2022 – Present*
+
+-   Input new perspective leads and maintain professional client relationship through email, phone call, and text communications in a timely manner
+
+-   Coordinate closely with internal departments, external vendors, and clients across sales and event planning processes
+
+-   Perform accounting obligations such as generating invoices, filing, and documenting payments
+
+-   Support the Sr. VP of Sales & Marketing by managing calendar updates, scheduling client meetings,conference calls, and site tours
+
+-   Collaborate with sales department to source warm/cold leads through the city’s local newspaper and chamber of commerce
+
+-   Assist in sales collateral by analyzing, interpreting sales data, and recommending changes to current sales technique and promotional efforts based on market trends
+
+------------------------------------------------------------------------
+
+### Front of House Supervisor, Honeybird 
+
+*2021-2022*
+
+-   Oversaw daily opening and closing operations including cleaning, cash handling, and restocking inventory
+
+-   Ensured front of house station complied with food, health, and safety regulations based on county regulations
+
+-   Maintained effective communication with kitchen staff to manage front of house inventory
+
+-   Knowledge of ingredients in dishes to accommodate to customer’s food allergens
+
+-   Handled customer inquiries, feedback, and complaints in a professional manner
+
+------------------------------------------------------------------------
+
+### Assistant Manager, Gigi+Rose
+
+*2018-2020*
+
+-   Assisted store managers in merchandise research, vendor sourcing, marketing efforts, and inventory management
+
+-   Contributed to business development by implementing sales promotion, techniques, and monthly sales goals
+
+-   Completed daily administrative and customer service duties (sales processes, merchandising, vendor orders, and payments)
+
+-   Analyzed and researched marketing trends to stay competitive amongst retailers
+
+-   Executed merchandising strategies alongside with store managers to attract customers
+
+-   Train, coach, and manage new sales associates in lieu of store manager’s presence

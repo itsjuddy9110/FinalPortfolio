@@ -1,0 +1,112 @@
+/*-------------------------------------------------
+  Generic SCSS Starter
+  Replace the sample values with your own brand
+--------------------------------------------------*/
+
+/*-- scss:defaults --*/
+
+// ── Brand Palette: Minty-friendly Pink & Brown ─────────────
+$color-primary:   #C88EA7;  // soft rose pink
+$color-secondary: #8D6748;  // cocoa brown
+
+$accent-1:  #FFB6B9;  // blush for highlight/links
+$accent-2:  #F1E7DD;  // subtle beige for cards
+$neutral-0: #FFFFFF;
+$neutral-1: #FAFAFA;
+$neutral-9: #2B2B2B;  // neutral dark for text
+
+// ── Fonts ─────────────
+$font-primary: "Inter", sans-serif;
+$font-body: $font-primary;
+
+// ── Import Inter from Google Fonts ─────────────
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+/*-- scss:rules --*/
+
+/* Body */
+body {
+  font-family: $font-body;
+  background-color: $neutral-1;
+  color: $neutral-9;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-primary;
+  font-weight: 600;
+  color: $color-primary;
+}
+
+h2 { color: $color-secondary; }
+h3 { color: $accent-1; }
+
+/* Links */
+a {
+  color: $color-primary;
+  text-decoration: none;
+  &:hover {
+    color: $color-secondary;
+    text-decoration: underline;
+  }
+}
+
+/* Custom Card Style */
+.card {
+  background-color: $accent-2;
+  border-left: 5px solid $color-primary;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.04);
+}
+
+/* Code */
+pre code {
+  background: #2E2E2E;
+  color: $accent-2;
+  padding: 1em;
+  border-radius: 6px;
+  font-size: 0.9em;
+}
+
+/* Highlight */
+.highlight {
+  background-color: $accent-1;
+  color: $neutral-0;
+  padding: 0.2em 0.4em;
+  border-radius: 0.3em;
+}
+/* Custom Navbar Color */
+.navbar {
+  background-color: #C88EA7 !important; /* soft pink */
+  border-bottom: 2px solid #8D6748;      /* cocoa brown border */
+}
+
+/* Optional: Change navbar link text color */
+.navbar a,
+.navbar-brand {
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
+/* Optional: Hover effect */
+.navbar a:hover {
+  color: #FDE5EC !important;
+}
+
+/* Optional: Custom Box */
+.custom-box {
+  background-color: #F8F0F2;           // soft pink background
+  border-left: 5px solid #C88EA7;      // soft rose accent
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+.center-image {
+  text-align: center;
+  margin: 2rem auto;
+}
