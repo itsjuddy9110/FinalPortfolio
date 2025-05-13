@@ -30,28 +30,28 @@ A selection of academic and consulting projects demonstrating skills in digital 
 [View Report](https://docs.google.com/document/d/14Zj4OAraD9Red5WwS6__dupf6NaWMWDXyKh8iA_3oyw/edit?usp=sharing)
 :::
 
-------------------------------------------------------------------------
+--------------------------------------------------------------------
 
 ::: project-box
-### 📈 Market Forecasting with R – *Ansett Airlines Demand Analysis*
+### 🔍 SEO & SEM Strategy – *Target Corporation Audit*
 
-**Course:** IBM6520 – Market Forecasting
+**Course:** IBM6100 – Digital Marketing Analytics
 
-**Description**: Predicted passenger volume by ticket class using Ansett Airlines time series data. Applied ADF testing, dynamic regression models, and seasonal differencing to improve forecast accuracy.
+**Description**: Conducted on-page and off-page SEO analysis for Target.com. Proposed enhancements in keyword targeting, backlink strategies, and SEM tactics to drive more organic and paid traffic.
 
 **Skills Demonstrated:**
 
--   Time Series Forecasting (R)
+-   SEO Audit & Keyword Research
 
--   ADF Stationarity Testing
+-   Technical Optimization Recommendations
 
--   Seasonal Trend Analysis
+-   Paid Media Integration & Funnel Design
 
--   Strategic Demand Planning
+-   Content Strategy & Metrics
 
-[View Presentation Link](https://docs.google.com/presentation/d/1iHamDu2XW1L_LPm13l9R_KbRtBaMJpNeKmKwVWVpHoo/edit?usp=sharing)
+[View Presentation Link](https://docs.google.com/presentation/d/14uEescfys9ei5zCL_2xUqZvuDEuvzohbpDH6kh89hQU/edit?usp=sharing)
 
-[View Report](https://docs.google.com/document/d/1nSnjMqg7NCS_fiEEPrWS6zJKOHGez5PFwwAcxc4HUqo/edit?usp=sharing)
+[View Report](https://docs.google.com/document/d/1AQAEFKicptxSLym2JQlM2C7XhFX0pu9GQDjPkYu4hUY/edit?usp=sharing)
 :::
 
 ------------------------------------------------------------------------
