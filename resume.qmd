@@ -33,7 +33,7 @@ Results-driven sales and event professional with a strong foundation in client c
 # Education
 
 | Degree | Year | College / Department | Institution |
-|-------------------|-----------------|--------------------|-----------------|
+|----|----|----|----|
 | Master of Science | Aug. 2023-Aug. 2025 | Singelyn Graduate School of Business | California State Polytechnic University, Pomona |
 | Bachelor of Science | Aug. 2018-Dec. 2022 | The Collins College of Hospitality Management | California State Polytechnic University, Pomona |
 
@@ -57,7 +57,7 @@ Results-driven sales and event professional with a strong foundation in client c
 
 ------------------------------------------------------------------------
 
-### Front of House Supervisor, Honeybird 
+### Front of House Supervisor, Honeybird
 
 *2021-2022*
 

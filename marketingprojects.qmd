@@ -9,30 +9,6 @@ A selection of academic and consulting projects demonstrating skills in digital 
 ------------------------------------------------------------------------
 
 ::: project-box
-### 🔍 SEO & SEM Strategy – *Target Corporation Audit*
-
-**Course:** IBM6100 – Digital Marketing Analytics
-
-**Description**: Conducted on-page and off-page SEO analysis for Target.com. Proposed enhancements in keyword targeting, backlink strategies, and SEM tactics to drive more organic and paid traffic.
-
-**Skills Demonstrated:**
-
--   SEO Audit & Keyword Research
-
--   Technical Optimization Recommendations
-
--   Paid Media Integration & Funnel Design
-
--   Content Strategy & Metrics
-
-[View Presentation Link](https://docs.google.com/presentation/d/14uEescfys9ei5zCL_2xUqZvuDEuvzohbpDH6kh89hQU/edit?usp=sharing)
-
-[View Report](https://docs.google.com/document/d/1AQAEFKicptxSLym2JQlM2C7XhFX0pu9GQDjPkYu4hUY/edit?usp=sharing)
-:::
-
-------------------------------------------------------------------------
-
-::: project-box
 ### 🚗 Consumer Behavior Research – *Car Brand Preference Study*
 
 **Course:** IBM6500 – Marketing Research

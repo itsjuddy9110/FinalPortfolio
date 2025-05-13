@@ -12,6 +12,8 @@ website:
         href: resume.qmd
       - text: "Marketing Projects"
         href: marketingprojects.qmd
+      - text: "Marketing Analytics"
+        href: marketinganalytics.qmd
       - text: "Graduate Thesis"
         href: presentation.qmd
 
