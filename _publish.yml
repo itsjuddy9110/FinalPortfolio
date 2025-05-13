@@ -2,3 +2,6 @@
   netlify:
     - id: 8ca76166-e25c-43fc-8ec6-66cca240092c
       url: https://judychenportfolio.netlify.app
+  quarto-pub:
+    - id: 0002cd4d-197d-44c4-8c8a-90306e4ccee3
+      url: https://judy9110.quarto.pub/portfolio

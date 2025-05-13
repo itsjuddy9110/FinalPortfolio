@@ -17,9 +17,7 @@ website:
       - text: "Graduate Thesis"
         href: presentation.qmd
 
-
 format:
   html:
     theme: [minty, theme.scss]
     toc: true
-
